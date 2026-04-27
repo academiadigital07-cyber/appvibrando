@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+
+<html class="light" lang="es"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Serif:wght@400;700&amp;family=Manrope:wght@300;400;600;800&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<script id="tailwind-config">
+      tailwind.config = {
+        darkMode: "class",
+        theme: {
+          extend: {
+            "colors": {
+                    "secondary": "#4a6456",
+                    "on-secondary-container": "#4f6a5c",
+                    "surface-variant": "#e4e4cc",
+                    "on-secondary-fixed-variant": "#324c3f",
+                    "tertiary-fixed": "#ffe088",
+                    "surface-container-highest": "#e4e4cc",
+                    "on-secondary": "#ffffff",
+                    "surface-container-lowest": "#ffffff",
+                    "inverse-primary": "#becca3",
+                    "surface": "#fbfbe2",
+                    "on-tertiary-fixed-variant": "#574500",
+                    "primary-container": "#a3b18a",
+                    "on-surface-variant": "#45483f",
+                    "on-primary": "#ffffff",
+                    "surface-bright": "#fbfbe2",
+                    "outline-variant": "#c6c8bb",
+                    "error-container": "#ffdad6",
+                    "on-background": "#1b1d0e",
+                    "on-tertiary-fixed": "#241a00",
+                    "primary-fixed-dim": "#becca3",
+                    "error": "#ba1a1a",
+                    "on-tertiary": "#ffffff",
+                    "on-surface": "#1b1d0e",
+                    "background": "#fbfbe2",
+                    "inverse-surface": "#303221",
+                    "surface-container-low": "#f5f5dc",
+                    "secondary-fixed-dim": "#b0cdbc",
+                    "surface-dim": "#dbdcc3",
+                    "surface-container-high": "#eaead1",
+                    "on-error": "#ffffff",
+                    "secondary-fixed": "#ccead8",
+                    "primary-fixed": "#dae8be",
+                    "on-primary-fixed-variant": "#3f4b2c",
+                    "surface-tint": "#566342",
+                    "tertiary-container": "#cca830",
+                    "tertiary-fixed-dim": "#e9c349",
+                    "inverse-on-surface": "#f2f2d9",
+                    "on-tertiary-container": "#4f3e00",
+                    "secondary-container": "#ccead8",
+                    "surface-container": "#efefd7",
+                    "primary": "#566342",
+                    "on-error-container": "#93000a",
+                    "tertiary": "#735c00",
+                    "on-primary-fixed": "#141f05",
+                    "on-primary-container": "#384425",
+                    "on-secondary-fixed": "#062015",
+                    "outline": "#76786e"
+            },
+            "borderRadius": {
+                    "DEFAULT": "1rem",
+                    "lg": "2rem",
+                    "xl": "3rem",
+                    "full": "9999px"
+            },
+            "fontFamily": {
+                    "headline": ["Noto Serif"],
+                    "body": ["Manrope"],
+                    "label": ["Manrope"]
+            }
+          },
+        }
+      }
+    </script>
+<style>
+        .material-symbols-outlined {
+            font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+        }
+        .graph-gradient {
+            background: linear-gradient(to bottom, rgba(163, 177, 138, 0.2), transparent);
+        }
+    </style>
+<style>
+    body {
+      min-height: max(884px, 100dvh);
+    }
+  </style>
+  </head>
+<body class="bg-surface text-on-surface font-body selection:bg-tertiary-fixed min-h-screen pb-32">
+<!-- TopAppBar -->
+<header class="bg-[#fbfbe2]/70 dark:bg-[#1b1d0e]/70 backdrop-blur-xl flex justify-between items-center px-6 h-16 w-full fixed top-0 z-50">
+<div class="flex items-center gap-3">
+<div class="w-8 h-8 rounded-full overflow-hidden">
+<img class="w-full h-full object-cover" data-alt="Close up portrait of a serene woman with eyes closed, soft natural lighting, spiritual essence aesthetic" src="https://lh3.googleusercontent.com/aida-public/AB6AXuB15X91_PTpv6XcS5ZJ0rCaMs6tCujaTCg2vDFD4pcpEdKPMWX25oKL_P6TTol2BsJOAhQgIi1yIzugl3_j3eEhcNChWjtNS2EzphkTAcE2hMFwFNY2gPL3F7YclJuGCCTKydvAinQw7KaarDT_hdK7yNcTQ0ZyRx3p_XKe_Chfn401C_aRk-GkoySOzU8NI5gSkkFaUCn7aMqtCdIeyKRDt7_4dNiDQaXFk_rNRBEx-9WfLKBpKac62bZcIVIFTqX1u9vMFti1pmFQ"/>
+</div>
+</div>
+<h1 class="font-['Noto_Serif'] text-lg tracking-wide text-[#566342] dark:text-[#a3b18a] flex-1 text-center">Progreso</h1>
+<div class="flex items-center text-[#566342] dark:text-[#a3b18a] hover:opacity-80 transition-opacity">
+<span class="material-symbols-outlined" data-icon="settings">settings</span>
+</div>
+</header>
+<main class="pt-24 px-6 max-w-2xl mx-auto space-y-12">
+<!-- Hero Section: Encouraging Text -->
+<section class="space-y-2">
+<p class="font-label text-[10px] uppercase tracking-[0.2em] text-primary opacity-70">Tu camino</p>
+<h2 class="font-headline text-3xl text-on-background leading-tight">Tu luz brilla cada día más.</h2>
+</section>
+<!-- Stats Overview Bento Grid -->
+<section class="grid grid-cols-2 gap-4">
+<div class="bg-surface-container-low p-8 rounded-xl flex flex-col justify-between aspect-square">
+<div class="bg-primary/10 w-10 h-10 rounded-full flex items-center justify-center">
+<span class="material-symbols-outlined text-primary" data-icon="calendar_today">calendar_today</span>
+</div>
+<div>
+<div class="font-headline text-4xl text-on-surface">7</div>
+<div class="font-label text-xs uppercase tracking-wider text-on-surface-variant">días seguidos</div>
+</div>
+</div>
+<div class="bg-surface-container-highest p-8 rounded-xl flex flex-col justify-between aspect-square">
+<div class="bg-tertiary/10 w-10 h-10 rounded-full flex items-center justify-center">
+<span class="material-symbols-outlined text-tertiary" data-icon="timer">timer</span>
+</div>
+<div>
+<div class="font-headline text-4xl text-on-surface">120</div>
+<div class="font-label text-xs uppercase tracking-wider text-on-surface-variant">minutos meditados</div>
+</div>
+</div>
+</section>
+<!-- Weekly Activity Graph -->
+<section class="space-y-6">
+<div class="flex justify-between items-end">
+<h3 class="font-headline text-xl text-on-surface">Actividad Semanal</h3>
+<span class="font-label text-[10px] uppercase tracking-widest text-primary">Últimos 7 días</span>
+</div>
+<div class="relative bg-surface-container-low rounded-xl p-8 h-64 flex flex-col justify-end overflow-hidden">
+<!-- SVG Line Graph -->
+<div class="absolute inset-x-0 bottom-16 h-32 px-4">
+<svg class="w-full h-full" preserveaspectratio="none" viewbox="0 0 100 40">
+<defs>
+<lineargradient id="lineGrad" x1="0" x2="1" y1="0" y2="0">
+<stop offset="0%" stop-color="#566342"></stop>
+<stop offset="100%" stop-color="#a3b18a"></stop>
+</lineargradient>
+</defs>
+<!-- Area Fill -->
+<path d="M0,40 L0,30 Q15,25 25,35 T50,20 T75,10 T100,5 L100,40 Z" fill="rgba(163, 177, 138, 0.15)"></path>
+<!-- The Smooth Line -->
+<path d="M0,30 Q15,25 25,35 T50,20 T75,10 T100,5" fill="none" stroke="url(#lineGrad)" stroke-linecap="round" stroke-width="1.5"></path>
+<!-- Highlight Point -->
+<circle cx="100" cy="5" fill="#735c00" r="1.5"></circle>
+</svg>
+</div>
+<!-- X-Axis Labels -->
+<div class="flex justify-between text-[10px] font-label text-on-surface-variant/50 uppercase tracking-tighter mt-auto pt-8">
+<span>Lun</span>
+<span>Mar</span>
+<span>Mie</span>
+<span>Jue</span>
+<span>Vie</span>
+<span>Sab</span>
+<span class="text-tertiary font-bold">Dom</span>
+</div>
+</div>
+</section>
+<!-- Insights / Secondary Content -->
+<section class="bg-surface-container-high rounded-xl p-6 flex items-center gap-6">
+<div class="flex-shrink-0 w-16 h-16 rounded-full overflow-hidden">
+<img class="w-full h-full object-cover" data-alt="Macro photography of a single dew drop on a sage green leaf, morning light, calm zen atmosphere" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAs9n-dyjzgjHdjtWwRgLt2Obo7SmjrxukNi-h_Wk_VsCmRsHDPI3lpRgo5ISr0WF5DpsKWcEZIUCKXywcz3a1hPuKLfdOddm5h4rBezYH2YevfyV7-P5YyhKGU4KzY6pnrSs9RpGBZObJ8yOBDqmqyljbHHFv4GQc0HykTs8cUEXnSL83TZtLmjQPV4s2FonahUPHILkJKqARo61ZMdRjnku6477HRjJ69fA8MeS7f15kMAEm4ZzWo0U8dYfeax9z0_Php0ThprWNK"/>
+</div>
+<div class="space-y-1">
+<h4 class="font-headline text-lg">Mente en calma</h4>
+<p class="text-sm text-on-surface-variant leading-relaxed">Has incrementado tu enfoque un 15% respecto a la semana pasada.</p>
+</div>
+</section>
+</main>
+<!-- BottomNavBar -->
+<nav class="fixed bottom-6 left-0 right-0 z-50 flex justify-around items-center h-16 mx-auto w-[90%] max-w-lg rounded-full bg-[#fbfbe2]/70 dark:bg-[#1b1d0e]/70 backdrop-blur-xl shadow-[0px_20px_40px_rgba(27,29,14,0.05)]">
+<a class="flex items-center justify-center text-[#566342] dark:text-[#a3b18a] p-3 hover:text-[#735c00] transition-colors" href="#">
+<span class="material-symbols-outlined" data-icon="self_improvement">self_improvement</span>
+</a>
+<a class="flex items-center justify-center text-[#566342] dark:text-[#a3b18a] p-3 hover:text-[#735c00] transition-colors" href="#">
+<span class="material-symbols-outlined" data-icon="auto_awesome">auto_awesome</span>
+</a>
+<a class="flex items-center justify-center text-[#566342] dark:text-[#a3b18a] p-3 hover:text-[#735c00] transition-colors" href="#">
+<span class="material-symbols-outlined" data-icon="spa">spa</span>
+</a>
+<!-- Active Tab: Profile/Progress -->
+<a class="flex items-center justify-center bg-gradient-to-tr from-[#566342] to-[#a3b18a] text-white rounded-full p-3 shadow-[0_0_15px_rgba(115,92,0,0.3)] scale-110 duration-500 ease-in-out" href="#">
+<span class="material-symbols-outlined" data-icon="person" style="font-variation-settings: 'FILL' 1;">person</span>
+</a>
+</nav>
+</body></html>
